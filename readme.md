@@ -261,5 +261,5 @@ productSchema.virtual('url').get(function() {
 - `GET /api/products` - Get all products
 - `GET /api/products/:id` - Get single product
 - `POST /api/products` - Create product (Admin only)
-- `PUT /api/products/:id` - Update product (Admin only)
+- `PATCH /api/products/:id` - Update product (Admin only)
 - `DELETE /api/products/:id` - Delete product (Admin only)
